@@ -13,15 +13,7 @@ export default function Navbar() {
                 <li>
                     <Link href="/products/add">Add Product</Link>
                 </li>
-                <li>
-                    <Link href="/">Services</Link>
-                </li>
-                <li>
-                    <Link href="/">Blogs</Link>
-                </li>
-                <li>
-                    <Link href="/">Contact</Link>
-                </li>
+               
             </>
         )
     }
