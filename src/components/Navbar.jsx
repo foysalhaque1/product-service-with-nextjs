@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import logo from '../../assets/car.jpg'
 
 export default function Navbar() {
     const navMenu = () => {
@@ -45,7 +46,7 @@ export default function Navbar() {
                         {/* Fix the image path */}
                         <Image 
                             alt='logo' 
-                            src={'/assets/images/logo.svg'} 
+                            src={logo} 
                             height={50} 
                             width={50} 
                         />
